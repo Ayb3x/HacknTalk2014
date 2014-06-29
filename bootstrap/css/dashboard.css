@@ -24,7 +24,6 @@ body {
 
 .navbar{
   background-color: #1e0423;
-  color: white;
   height: 70px;
 }
 
@@ -58,6 +57,7 @@ body {
 .nav>li>a{
   padding: 25px 15px;
   color: white !important;
+  background-color: #1e0423;
 }
 
 /*
