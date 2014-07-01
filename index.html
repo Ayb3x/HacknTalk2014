@@ -4,48 +4,171 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Z Gold</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="icon" href="../../favicon.ico">
 
-    <!-- Bootstrap -->
+    <title>Carousel Template for Bootstrap</title>
+
+    <!-- Bootstrap core CSS -->
     <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+        
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
   </head>
+<!-- NAVBAR
+================================================== -->
   <body>
-    <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-    <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="bootstrap/js/bootstrap.min.js"></script>
-
-	<nav class="navbar navbar-default" role="navigation">
-	  <div class="container-fluid">
-	    <!-- Brand and toggle get grouped for better mobile display -->
-	    <div class="navbar-header">
-	      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
-	        <span class="sr-only">Toggle navigation</span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	        <span class="icon-bar"></span>
-	      </button>
-	      <a class="navbar-brand" href="#">Z Gold</a>
-	    </div>
-
-	    <!-- Collect the nav links, forms, and other content for toggling -->
+    <!-- Fixed navbar -->
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <!--<a class="navbar-brand" href="#">Z-Gold</a>-->
+          <img src="Z-gold-logo-.png">
+        </div>
+        
+        <!-- Collect the nav links, forms, and other content for toggling -->
 	    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
 	      <ul class="nav navbar-nav navbar-right">
+                <li>
+                    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown">
+                        English
+                        <span class="caret"></span>
+                    </button>
+                    <ul class="dropdown-menu" role="menu" aria-labelledby="dropdownMenu1">
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Francais</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Espanol</a></li>
+                      <li role="presentation"><a role="menuitem" tabindex="-1" href="#">Deutsch</a></li>
+                    </ul>
+                </li>
 	        <li><a href="#">Services</a></li>
 	        <li><a href="#">About</a></li>
 	        <li><a href="#">Contact Us</a></li>
-	        <li><a href="#">Sign In</a></li>
+	        <li><a href="dashboard.html">Sign In</a></li>
 	      </ul>
 	    </div><!-- /.navbar-collapse -->
-	  </div><!-- /.container-fluid -->
-	</nav>
+      </div>
+    </div>
 
+
+    <!-- Carousel
+    ================================================== -->
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+      <div class="carousel-inner">
+        <div class="item active">
+        <img src="vgold.jpg">
+         <div class="container">
+            <div class="carousel-caption">
+            <!--<p>"I thought, did I like having my stuff stolen when I was in Barcelona? F#@$ no. So I was like, what if there's a way to keep backup funds safe? F#@$ yeah!" - Long Gao</p>-->
+            <h1>There when you need it most.</h1>
+              <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div><!-- /.carousel -->
+
+
+
+    <!-- Marketing messaging and featurettes
+    ================================================== -->
+    <!-- Wrap the rest of the page in another container to center all the content. -->
+
+    
+
+      <!-- Three columns of text below the carousel -->
+    <div class="calltoaction">
+       <div class="container marketing"> 
+      <div class="row">
+        <div class="col-lg-4">
+          <img src="keychain-vgold.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Discrete</h2>
+          <p>Wear and take Z-Gold anywhere in a discrete way.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="lock-vgold.png" alt="Generic placeholder image" style="width: 140px; height: 140px;">
+          <h2>Secure</h2>
+          <p>Z-Gold protects your identity and resources when they go missing.</p>
+        </div><!-- /.col-lg-4 -->
+        <div class="col-lg-4">
+          <img src="ring-vgold.png" alt="Generic placeholder image" style="height: 140px;">
+          <h2>Reliable</h2>
+          <p>Z-Gold provides you with your funds when you need it most. </p>
+        </div><!-- /.col-lg-4 -->
+      </div><!-- /.row -->
+    </div>
+    </div>
+    
+    <div class="container marketing">
+      <!-- START THE FEATURETTES -->
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Wear your Z-Gold. <span class="text-muted"></span></h2>
+          <p class="lead">We offer Z-Gold in a variety of objects colors and styles to fit seamlessly with your style. Wear it wherever you go and keep it close to yourself. Through this website you are able to order your own way of keeping your Z-Gold, whether it's a ring, earring or keychain.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="ring_zgold.jpg" alt="Generic placeholder image" style="height:450px;">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-5">
+          <img src="travel_zgold.jpg" alt="Generic placeholder image" style="height:450px;">
+        </div>
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Travel without fear. <span class="text-muted"></span></h2>
+          <p class="lead">Never worry about being lost without identification or backup funds again. With Z-Gold, you can store your an account number which links to stored money, and identifying information such as passport and driver's license copies.</p>
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <div class="row featurette">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">Secure yourself. <span class="text-muted"></span></h2>
+          <p class="lead">When your money or identity goes missing, go to a Z-Gold supported financial service and your Z-Gold will act as a key to access your funds instantly.
+Once your Z-Gold is activated, you are able to store your emergency money through your account for as long as you need.</p>
+        </div>
+        <div class="col-md-5">
+          <img src="secure_zgold.jpg" style="width:450px;" alt="Generic placeholder image">
+        </div>
+      </div>
+
+      <hr class="featurette-divider">
+
+      <!-- /END THE FEATURETTES -->
+
+
+      <!-- FOOTER -->
+      <footer>
+        <p class="pull-right"><a href="#">Back to top</a></p>
+        <p>&copy; 2014 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
+      </footer>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="bootstrap/js/bootstrap.min.js"></script>
   </body>
 </html>
