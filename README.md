@@ -1,7 +1,7 @@
 HacknTalk2014
 =============
 
-Proof of concept site for our hack, Z-Gold.  Z-Gold is our idea for a wearable form of emergency funds
+Proof of concept site for our hack, Z-Gold, which was written over the span of about 10 hours.  Z-Gold is our idea for a wearable form of emergency funds
 while travelling in the event that your wallet is stolen.  Our examples for this were rings, necklaces, or
 hair accessories.
 
