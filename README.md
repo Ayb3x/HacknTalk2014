@@ -5,4 +5,4 @@ Proof of concept site for our hack, Z-Gold, which was written over the span of a
 while travelling in the event that your wallet is stolen.  Our examples for this were rings, necklaces, or
 hair accessories.
 
-Created by Team 8: Brian R (@echolocation), Erica P (@Ayb3x), Long Gao, and Muriel Schvartzman.
+Created by Team 8: Brian R (@echolocation), Erica P (@ericapisani), Long Gao, and Muriel Schvartzman.
